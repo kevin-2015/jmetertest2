@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="23" it="0" lt="23" ct="0" ts="1495680494584" s="true" lb="boss-登入" rc="302" rm="Found" tn="TestAPI_BOSS_caigouxians 1-1" dt="" by="227" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:49 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/cas
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/cas</redirectLocation>
+  <java.net.URL>http://boss.qa.great-tao.com/index;jsessionid=6944CF28058101BA58475A7D57750AB1</java.net.URL>
+</httpSample>
+<httpSample t="405" it="0" lt="405" ct="392" ts="1495680494643" s="true" lb="boss-登入 重定向" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="4340" sby="395" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Cache-Control: no-store
+Set-Cookie: JSESSIONID=B9BBF0DF6A5D1E70198BDE4D5F282D9A; Path=/cas-server/; Secure; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Length: 3994
+Date: Thu, 25 May 2017 02:49:55 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Host: cas.qa.great-tao.com:8443
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/cas</java.net.URL>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="0" ts="1495680495051" s="true" lb="boss-登入传递参数指向" rc="302" rm="Found" tn="TestAPI_BOSS_caigouxians 1-1" dt="" by="462" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Cache-Control: no-store
+Set-Cookie: CASPRIVACY=&quot;&quot;; Path=/cas-server/; Secure
+Set-Cookie: CASTGC=TGT-2560-LNSMZn7JE9LPkyEyoZqBJjNrox3xYCcCEcxedc3HvZZzQPQAh6-cas; Path=/cas-server/; Secure
+Location: http://boss.qa.great-tao.com/cas?ticket=ST-8533-btqPNl2fcMWpL3dLJvR9-cas
+Content-Length: 0
+Date: Thu, 25 May 2017 02:49:55 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Length: 194
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=B9BBF0DF6A5D1E70198BDE4D5F282D9A</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">service=http%3A%2F%2Fboss.qa.great-tao.com%2Fcas&amp;username=yuanjunling&amp;password=1234&amp;captcha=greattao0818&amp;lt=LT-5673-5dVKIiBNeUvwGIeZG0o9wLKkQCYIfE-cas&amp;execution=e1s1&amp;_eventId=submit&amp;submit=LOGIN</queryString>
+  <redirectLocation class="java.lang.String">http://boss.qa.great-tao.com/cas?ticket=ST-8533-btqPNl2fcMWpL3dLJvR9-cas</redirectLocation>
+  <java.net.URL>https://cas.qa.great-tao.com:8443/cas-server/login;jsessionid=B9BBF0DF6A5D1E70198BDE4D5F282D9A</java.net.URL>
+</httpSample>
+<httpSample t="415" it="0" lt="413" ct="0" ts="1495680495067" s="true" lb="boss登入" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="26778" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:49 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/index;jsessionid=6944CF28058101BA58475A7D57750AB1</java.net.URL>
+</httpSample>
+<sample t="3" it="0" lt="0" ct="3" ts="1495680495485" s="false" lb="查询当前登录用户的id" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] SELECT id FROM ly_user WHERE username=&apos;yuanjunling&apos;
+
+</samplerData>
+</sample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680495490" s="false" lb="查询leadsId2" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.microsoft.sqlserver.jdbc.SQLServerDriver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="76" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] SELECT leadsId FROM purchasing WHERE productName=&apos;老六麻辣烫啊366690&apos;
+
+</samplerData>
+</sample>
+<httpSample t="746" it="0" lt="10" ct="0" ts="1495680495493" s="true" lb="添加线索页面" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="21982" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="10" it="0" lt="10" ct="0" ts="1495680495493" s="true" lb="http://boss.qa.great-tao.com/boss-leads-web/leads/add" rc="302" rm="Found" tn="TestAPI_BOSS_caigouxians 1-1" dt="" by="332" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:50 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: JSESSIONID=EE28FF1F955F93055518F18BB35E880C; Path=/boss-leads-web/; HttpOnly
+Location: https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/boss-leads-web/cas
+</responseHeader>
+    <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/boss-leads-web/cas</redirectLocation>
+    <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/add</java.net.URL>
+  </httpSample>
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1495680495505" s="true" lb="https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/boss-leads-web/cas" rc="302" rm="Found" tn="TestAPI_BOSS_caigouxians 1-1" dt="" by="312" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Cache-Control: no-store
+Location: http://boss.qa.great-tao.com/boss-leads-web/cas?ticket=ST-8534-nx9YU2cgrpUxYMF5mfZL-cas
+Content-Length: 0
+Date: Thu, 25 May 2017 02:49:55 GMT
+</responseHeader>
+    <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String">JSESSIONID=B9BBF0DF6A5D1E70198BDE4D5F282D9A; CASTGC=TGT-2560-LNSMZn7JE9LPkyEyoZqBJjNrox3xYCcCEcxedc3HvZZzQPQAh6-cas</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">http://boss.qa.great-tao.com/boss-leads-web/cas?ticket=ST-8534-nx9YU2cgrpUxYMF5mfZL-cas</redirectLocation>
+    <java.net.URL>https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/boss-leads-web/cas</java.net.URL>
+  </httpSample>
+  <httpSample t="53" it="0" lt="53" ct="0" ts="1495680495510" s="true" lb="http://boss.qa.great-tao.com/boss-leads-web/cas?ticket=ST-8534-nx9YU2cgrpUxYMF5mfZL-cas" rc="302" rm="Found" tn="TestAPI_BOSS_caigouxians 1-1" dt="" by="295" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:50 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: rememberMe=deleteMe; Path=/boss-leads-web; Max-Age=0; Expires=Wed, 24-May-2017 02:50:50 GMT
+Location: http://boss.qa.great-tao.com/boss-leads-web//leads/add
+</responseHeader>
+    <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <redirectLocation class="java.lang.String">http://boss.qa.great-tao.com/boss-leads-web//leads/add</redirectLocation>
+    <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/cas?ticket=ST-8534-nx9YU2cgrpUxYMF5mfZL-cas</java.net.URL>
+  </httpSample>
+  <httpSample t="674" it="0" lt="671" ct="0" ts="1495680495565" s="true" lb="http://boss.qa.great-tao.com/boss-leads-web//leads/add" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="21043" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:50 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+    <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web//leads/add</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:50 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/boss-leads-web/cas</redirectLocation>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web//leads/add</java.net.URL>
+</httpSample>
+<httpSample t="825" it="0" lt="655" ct="0" ts="1495680496249" s="true" lb="添加线索数据" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="23773" sby="1433" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <httpSample t="655" it="0" lt="655" ct="0" ts="1495680496249" s="true" lb="http://boss.qa.great-tao.com/boss-leads-web/leads/add" rc="302" rm="Found" tn="TestAPI_BOSS_caigouxians 1-1" dt="" by="228" sby="987" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+    <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:51 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767
+Content-Language: zh-CN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 484
+Host: boss.qa.great-tao.com
+</requestHeader>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">company=%E8%88%9F%E5%B1%B1%E5%A4%96%E8%B4%B8%E5%85%AC%E5%8F%B8738785&amp;contact=%E8%A2%81111&amp;content=%E8%80%81%E5%85%AD%E4%BD%A0%E4%B8%AA%E6%AF%9B%E8%80%81%E5%A4%B4&amp;country=CN&amp;customerId=&amp;email=261412489%40qq.com&amp;file=&amp;leadsAttachments%5B1%5D.url=http%3A%2F%2Fimage-dev.gttown.com%2F2017%2F05%2F09%2Fbbd07ee8-860c-484e-9af8-76e6212765b2.jpg&amp;oldLeadsId=&amp;other=&amp;position=%E9%94%80%E5%94%AE&amp;role=1&amp;roleBack=1&amp;source=3&amp;sourceRemark=%E7%BA%BF%E7%B4%A2%E6%9D%A5%E6%BA%90&amp;tel=13645809265&amp;type=1</queryString>
+    <redirectLocation class="java.lang.String">http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767</redirectLocation>
+    <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/add</java.net.URL>
+  </httpSample>
+  <httpSample t="169" it="0" lt="169" ct="4" ts="1495680496905" s="true" lb="http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="23545" sby="446" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+    <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:51 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Host: boss.qa.great-tao.com
+</requestHeader>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:51 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767</redirectLocation>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680497078" s="false" lb="查询leadsId1" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select id from leads where  company = &apos;舟山外贸公司738785&apos;
+
+</samplerData>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680497081" s="false" lb="销售线索-增加产品" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 67: http://boss.qa.great-tao.com/boss-leads-web/leads/product?leadsId=${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1080" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/product?leadsId=${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680497083" s="false" lb="销售线索-采购线索-增加产品数据" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 67: http://boss.qa.great-tao.com/boss-leads-web/leads/product?leadsId=${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1080" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/product?leadsId=${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="147" it="0" lt="146" ct="0" ts="1495680497086" s="true" lb="线索分配页面" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="29333" sby="502" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:51 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/director/list</java.net.URL>
+</httpSample>
+<httpSample t="150" it="0" lt="150" ct="0" ts="1495680497243" s="false" lb="采购线索分配" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:51 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/director/distribute?leadsId=${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="140" it="0" lt="140" ct="0" ts="1495680497396" s="false" lb="采购线索-主管分配对接人" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="603" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 80
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">domesticBuyerId=%24%7Buesr%7D&amp;leadsId=%24%7BleadsId1%7D&amp;receiverId=%24%7Buesr%7D</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/director/distribute.json</java.net.URL>
+</httpSample>
+<httpSample t="148" it="0" lt="147" ct="0" ts="1495680497545" s="true" lb="对接线索-待关联" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="19558" sby="502" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/receiver</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680497696" s="false" lb="查询待关联的数据" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select id  from leads where company like &apos;%舟%&apos;
+
+</samplerData>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680497704" s="false" lb="对接线索-查看详情boss" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 67: http://boss.qa.great-tao.com/boss-leads-web/leads/receiver/detail/${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1079" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /舟山外贸公司738785/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/receiver/detail/${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="142" it="0" lt="142" ct="0" ts="1495680497716" s="false" lb="对接线索- 选择关联客户BOSS" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="569" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 61
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">customer=&amp;customerId=28&amp;customerSource=2&amp;id=%24%7BleadsId1%7D</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/purchaser</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680497859" s="false" lb="对接线索-跟进弹窗" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 60: http://boss.qa.great-tao.com/boss-leads-web/leads/followup/${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1072" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /添加跟进记录/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/followup/${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="138" it="0" lt="138" ct="0" ts="1495680497862" s="false" lb="对接线索-跟进" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Length: 256
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">contact=%E8%A2%81111&amp;customerType=%E4%BC%98%E8%B4%A8%E5%AE%A2%E6%88%B7&amp;email=261412489%40qq.com&amp;followupDate=2017-5-9&amp;followupRemark=%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%93%88&amp;leadsId=%24%7BleadsId1%7D&amp;tel=13645809265</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/followup</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498002" s="false" lb="对接线索-确认线索" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 59: http://boss.qa.great-tao.com/boss-leads-web/leads/confirm/${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1071" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/confirm/${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="141" it="0" lt="140" ct="0" ts="1495680498005" s="true" lb="采购线索-进入报价池页面" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="16822" sby="503" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Content-Language: zh-CN
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/pool/list</java.net.URL>
+</httpSample>
+<sample t="2" it="0" lt="0" ct="2" ts="1495680498148" s="false" lb="查询报价池数据" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select leads_no  from leads where company like &apos;%舟%&apos; and contact = &apos;袁111&apos;
+
+</samplerData>
+</sample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680498150" s="false" lb="CMR供应商编号" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select id from customer where enterpriseName=&apos;供应商测试啊&apos;
+
+</samplerData>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498153" s="false" lb="报价池-查看详情" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 78: http://boss.qa.great-tao.com/boss-leads-web/offer/purchase/quotation/details/${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1090" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /红酒拉菲45194/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/purchase/quotation/details/${leadsId1}</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680498155" s="false" lb="查询产品序号" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] SELECT id FROM leads_trade_product WHERE name=&apos;红酒拉菲45194&apos; 
+
+</samplerData>
+</sample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680498157" s="false" lb="CMR查询industry" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select industry from customer where id=&apos;${supplierids}&apos;
+
+</samplerData>
+</sample>
+<httpSample t="145" it="0" lt="145" ct="0" ts="1495680498159" s="false" lb="报价池-推荐供应商" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Length: 242
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">belongUserNamess=&amp;emails=yuanjunling%40great-tao.com&amp;enterpriseNamess=%E4%BE%9B%E5%BA%94%E5%95%86%E6%B5%8B%E8%AF%95%E5%95%8A&amp;industrys=%24%7Bindustry%7D&amp;leadsId=%24%7BleadsId1%7D&amp;productids=%24%7Bproductids%7D&amp;supplierids=%24%7Bsupplierids%7D</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/confirmation/recommendation</java.net.URL>
+</httpSample>
+<httpSample t="149" it="0" lt="148" ct="0" ts="1495680498307" s="false" lb="一键发送报价单" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="572" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 58
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">leadsId=%24%7BleadsId1%7D&amp;supplierIds=%24%7Bsupplierids%7D</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/send/quotations</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680498457" s="false" lb="查询报价单id" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select offer_id from leads_trade_product_extend where  leads_id = &apos;${leadsId1}&apos;
+
+</samplerData>
+</sample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680498460" s="false" lb="查询id" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select id from leads_trade_product_extend where  offer_id = &apos;${offer_id}&apos;
+
+</samplerData>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498462" s="false" lb="供应商查看报价单" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 55: http://boss.qa.great-tao.com/boss-leads-web/offer/out/${offer_id}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1067" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/out/${offer_id}</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="0" ts="1495680498464" s="false" lb="供应商提交报价单" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="1682" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:52 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1167
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">attachments=%5B%7B%22sourceId%22%3A%22463%22%2C%22attachType%22%3A%226%22%2C%22attachUrl%22%3A%22http%3A%2F%2Fimage-dev.gttown.com%2F2017%2F05%2F10%2F672e7edd-11c7-4032-941e-3e8ebc57ae96.jpg%22%7D%2C%7B%22sourceId%22%3A%22463%22%2C%22attachType%22%3A%227%22%2C%22attachUrl%22%3A%22http%3A%2F%2Ffiles-dev.gttown.com%2F2017%2F05%2F10%2Fd1ece0e6-c24c-4b97-81d1-bfbf73678061.xlsx%22%7D%5D&amp;companyAddress=%E6%B5%99%E6%B1%9F%E8%88%9F%E5%B1%B1&amp;companyName=%E6%B5%99%E6%B1%9F%E8%88%9F%E5%B1%B1%E4%BE%9B%E5%BA%94%E5%95%86&amp;file=&amp;file=&amp;id=%24%7Boffer_id%7D&amp;leadsTradeProductExtends%5B0%5D.discription=%E6%B0%B4%E7%94%B5%E8%B4%B9%E7%9A%84%E8%AF%B4%E6%B3%95&amp;leadsTradeProductExtends%5B0%5D.id=%24%7Bid%7D&amp;leadsTradeProductExtends%5B0%5D.moq=55555&amp;leadsTradeProductExtends%5B0%5D.name=%E4%B8%AA%E5%9C%B0%E6%96%B9%E5%AE%98&amp;leadsTradeProductExtends%5B0%5D.packing=FOB&amp;leadsTradeProductExtends%5B0%5D.place=%E8%88%9F%E5%B1%B1&amp;leadsTradeProductExtends%5B0%5D.price=322323&amp;leadsTradeProductExtends%5B0%5D.productionCycle=222&amp;leadsTradeProductExtends%5B0%5D.remark=&amp;leadsTradeProductExtends%5B0%5D.specification=222*555&amp;leadsTradeProductExtends%5B0%5D.weight=4444&amp;paymentWay=3&amp;tradeWay=6</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/out/send/email</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498478" s="false" lb="报价池-查看报价" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 57: http://boss.qa.great-tao.com/boss-leads-web/offer/check/${offer_id}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1069" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/check/${offer_id}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498479" s="false" lb="采购商确认报价单" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 51: http://boss.qa.great-tao.com/boss-leads-web/offer/${offer_id}/confirm" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1071" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /采购员已确认/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/offer/${offer_id}/confirm</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498481" s="false" lb="对接线索-查看详情" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 67: http://boss.qa.great-tao.com/boss-leads-web/leads/receiver/detail/${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1079" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/receiver/detail/${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498482" s="false" lb="采购商确定合作1" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 61: http://boss.qa.great-tao.com/boss-leads-web/leads/cooperate/${offer_id}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1073" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/cooperate/${offer_id}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498483" s="false" lb="采购商确定合作2" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in path at index 67: http://boss.qa.great-tao.com/boss-leads-web/leads/receiver/detail/${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1079" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/leads/receiver/detail/${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498485" s="false" lb="采购商查看贸易订单页面" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 101: http://boss.qa.great-tao.com/boss-leads-web/orders/receive/addOrder?id=28&amp;name=舟山外贸公司738785&amp;leadsId=${leadsId1}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1121" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /贸易订单/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/orders/receive/addOrder?id=28&amp;name=舟山外贸公司738785&amp;leadsId=${leadsId1}</java.net.URL>
+</httpSample>
+<httpSample t="139" it="0" lt="139" ct="0" ts="1495680498488" s="false" lb="填写贸易订单-下单" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="870" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:53 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 352
+Host: boss.qa.great-tao.com
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">buyer=%E8%88%9F%E5%B1%B1%E5%A4%96%E8%B4%B8%E5%85%AC%E5%8F%B8738785&amp;buyerId=28&amp;currency=1&amp;descriptionstr=qqqq&amp;destinationPort=COTCO&amp;leadsId=%24%7BleadsId1%7D&amp;loadingPort=CNRSK&amp;orderNo=%24%7BorderNo%7D&amp;paymentMethod=2&amp;price=3052&amp;quantity=1272&amp;seller=%E4%BE%9B%E5%BA%94%E5%95%86%E6%B5%8B%E8%AF%95%E5%95%8A&amp;sellerEn=www&amp;sellerId=%24%7Bsupplierids%7D&amp;unit=1</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/orders/receive/saveLeads</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="1" ts="1495680498628" s="false" lb="查询order_id " rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="53" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] select order_id from leads where  company = &apos;舟山外贸公司738785&apos;
+
+</samplerData>
+</sample>
+<httpSample t="0" it="0" lt="0" ct="0" ts="1495680498631" s="false" lb="订单审核进入审核页面" rc="Non HTTP response code: java.net.URISyntaxException" rm="Non HTTP response message: Illegal character in query at index 81: http://boss.qa.great-tao.com/boss-leads-web/orders/director/audit/trade?orderId=${order_id%20}" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1097" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /舟山外贸公司738785/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/orders/director/audit/trade?orderId=${order_id%20}</java.net.URL>
+</httpSample>
+<httpSample t="144" it="0" lt="144" ct="0" ts="1495680498639" s="false" lb="审核不通过" rc="400" rm="Bad Request" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="2833" sby="0" sc="1" ec="1" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Server: nginx/1.10.2
+Date: Thu, 25 May 2017 02:50:53 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 2661
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Referer: http://boss.qa.great-tao.com/index
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0
+Connection: keep-alive
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Length: 199
+Content-Type: application/x-www-form-urlencoded
+</requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=EE28FF1F955F93055518F18BB35E880C; rememberMe=deleteMe</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">orderId=%24%7Border_id+%7D+&amp;pass=false&amp;reason=%E5%AE%A1%E6%A0%B8%E9%A9%B3%E5%9B%9E%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%AE%A9%E4%BD%A0%E9%80%9A%E8%BF%87%E5%AE%A1%E6%A0%B8%E4%BD%A0%E6%89%93%E6%88%91%E5%91%80</queryString>
+  <java.net.URL>http://boss.qa.great-tao.com/boss-leads-web/orders/director/audit/trade.json</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1495680498790" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="TestAPI_BOSS_caigouxians 1-1" dt="text" by="1863" sby="0" sc="1" ec="0" ng="1" na="1" hn="PC20150105001">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+</testResults>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  * 版权所有(C) 浙江大道网络科技有限公司2011-2020
+  ~  * Copyright 2009-2020 Zhejiang GreatTao Factoring Co., Ltd.
+  ~  *
+  ~  * This software is the confidential and proprietary information of
+  ~  * Zhejiang GreatTao Corporation ("Confidential Information").  You
+  ~  * shall not disclose such Confidential Information and shall use
+  ~  * it only in accordance with the terms of the license agreement
+  ~  * you entered into with Zhejiang GreatTao
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jmeter.autotest</groupId>
+    <artifactId>jmeter-autotest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+
+        <dependency>
+        <groupId>org.apache.jmeter</groupId>
+        <artifactId>ApacheJMeter_core</artifactId>
+        <version>2.10</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.40</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.lazerycode.jmeter</groupId>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>2.1.0</version>
+                <executions>
+                    <execution>
+                        <id>jmeter-tests</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>jmeter</goal>
+                        </goals>
+                        <configuration>
+                            <testFilesIncluded>
+                                <jMeterTestFile>TestAPI_BOSS_PurchasingLeads.jmx</jMeterTestFile>
+                                <jMeterTestFile>leads.jmx</jMeterTestFile>
+                                <!--<jMeterTestFile>TestMenu.jmx</jMeterTestFile>-->
+                            </testFilesIncluded>
+                            <!--<log_level.jmeter>DEBUG</log_level.jmeter>-->
+                            <testResultsTimestamp>false</testResultsTimestamp>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

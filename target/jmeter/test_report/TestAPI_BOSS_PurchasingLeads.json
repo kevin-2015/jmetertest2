@@ -1,0 +1,77 @@
+{
+  "performanceData":
+  [
+    {
+      "min": 0,
+      "max": 825,
+      "quantile90": 674,
+      "average": 276,
+      "total": 50,
+      "statusCodes":{
+                      "400": 9,
+                      "599": 25,
+                      "200": 10,
+                      "302": 6
+                    },
+      "uriByStatusCode":{
+                          "400": [
+                                  "采购线索分配",
+                                  "供应商提交报价单",
+                                  "采购线索-主管分配对接人",
+                                  "对接线索- 选择关联客户BOSS",
+                                  "报价池-推荐供应商",
+                                  "对接线索-跟进",
+                                  "填写贸易订单-下单",
+                                  "一键发送报价单",
+                                  "审核不通过"
+                                 ],
+                          "599": [
+                                  "对接线索-跟进弹窗",
+                                  "查询报价池数据",
+                                  "查询报价单id",
+                                  "报价池-查看报价",
+                                  "订单审核进入审核页面",
+                                  "查询leadsId1",
+                                  "查询leadsId2",
+                                  "采购商确认报价单",
+                                  "CMR查询industry",
+                                  "采购商确定合作2",
+                                  "查询order_id ",
+                                  "采购商确定合作1",
+                                  "报价池-查看详情",
+                                  "对接线索-查看详情",
+                                  "供应商查看报价单",
+                                  "对接线索-确认线索",
+                                  "采购商查看贸易订单页面",
+                                  "销售线索-采购线索-增加产品数据",
+                                  "销售线索-增加产品",
+                                  "查询当前登录用户的id",
+                                  "查询产品序号",
+                                  "CMR供应商编号",
+                                  "查询待关联的数据",
+                                  "对接线索-查看详情boss",
+                                  "查询id"
+                                 ],
+                          "200": [
+                                  "添加线索数据",
+                                  "Debug Sampler",
+                                  "boss-登入 重定向",
+                                  "线索分配页面",
+                                  "对接线索-待关联",
+                                  "http://boss.qa.great-tao.com/boss-leads-web/leads/edit?leadsId=3767",
+                                  "采购线索-进入报价池页面",
+                                  "boss登入",
+                                  "添加线索页面",
+                                  "http://boss.qa.great-tao.com/boss-leads-web//leads/add"
+                                 ],
+                          "302": [
+                                  "http://boss.qa.great-tao.com/boss-leads-web/leads/add",
+                                  "https://cas.qa.great-tao.com:8443/cas-server/login?service=http://boss.qa.great-tao.com/boss-leads-web/cas",
+                                  "boss-登入",
+                                  "boss-登入传递参数指向",
+                                  "http://boss.qa.great-tao.com/boss-leads-web/cas?ticket=ST-8534-nx9YU2cgrpUxYMF5mfZL-cas"
+                                 ]
+                        }
+    }
+  ]
+}
